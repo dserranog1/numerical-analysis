@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "numerical-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Daniel Serrano <dserranog@unal.edu.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.2.2"
+matplotlib = "^3.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
